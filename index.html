@@ -260,8 +260,47 @@
                     degrees from world-class universities and companies.</p>
             </div>
             <div class="w-50 d-flex justify-content-end">
-                <button class="btn btn-light">Register Now</button>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Account</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                      </div>
+                                    <div class="mb-3">
+                                        <label for="inputPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inputPassword" class="form-label">Confirm Password</label>
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
 
         <!--============= ready section end ================ -->
@@ -285,7 +324,9 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                                Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is
+                                that flexbox was designed for layout in one dimension - either a row or a column. Grid
+                                was designed for two-dimensional layout - rows, and columns at the same time.
                             </div>
                         </div>
                     </div>
@@ -299,7 +340,10 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.
+                                Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                                possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat
+                                UI with more flexibility and uniqueness. Sites created using Bootstrap follow the
+                                generic pattern that makes them look identical.
                             </div>
                         </div>
                     </div>
@@ -342,7 +386,7 @@
         <!--============== faq section end ============ -->
 
         <!-- ===========trasted company section start========  -->
-        
+
         <section class="container text-center my-5 d-none d-lg-block">
             <h3>Trusted by over 800+ companies</h3>
             <div class="d-flex justify-content-center gap-5 mt-4">
@@ -354,7 +398,7 @@
                 <img src="./images/company/company-6.png" alt="">
             </div>
         </section>
-        
+
         <!--=========== trasted company section start ======== -->
 
     </main>
