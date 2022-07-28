@@ -1,0 +1,19 @@
+@media only screen and (max-width: 767px) {
+    .carousel-item img {
+        width: 335px;
+        height: 262px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .course-img{
+        width: 335px;
+        height: 223px;
+    }
+}

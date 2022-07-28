@@ -9,13 +9,17 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!--=============== custom css =============== -->
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!--===================== header start ================= -->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-expand-md bg-light">
+            <nav class="navbar navbar-expand-lg navbar-expand-md bg-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand mb-0 h1 fs-2 fw-bold" href="#">EduCom</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -58,10 +62,10 @@
                             alt="...">
                         <div
                             class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
-                            <h2>Let's Start Digital <br> Learning</h2>
+                            <h1>Let's Start Digital <br> Learning</h1>
                             <p>
                                 High-quality tutoring for when and where you need them. <br> Enjoy digital whiteboards,
-                                recording functions, screen sharing and much more!
+                                recording functions.
                             </p>
                             <button class="btn btn-info" type="submit">Get Started</button>
                         </div>
@@ -73,8 +77,8 @@
                             class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
                             <h1>Let's Start Digital <br> Learning</h1>
                             <p>
-                                High-quality tutoring for when and where you need them. Enjoy digital <br> whiteboards,
-                                recording functions, screen sharing and much more!
+                                High-quality tutoring for when and where you need them.<br> Enjoy digital whiteboards,
+                                recording functions.
                             </p>
                             <button class="btn btn-info" type="submit">Get Started</button>
                         </div>
@@ -86,8 +90,8 @@
                             class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
                             <h1>Let's Start Digital <br> Learning</h1>
                             <p>
-                                High-quality tutoring for when and where you need them. Enjoy digital <br> whiteboards,
-                                recording functions, screen sharing and much more!
+                                High-quality tutoring for when and where you need them. <br> Enjoy digital whiteboards,
+                                recording functions.
                             </p>
                             <button class="btn btn-info" type="submit">Get Started</button>
                         </div>
@@ -121,12 +125,12 @@
                     of the most popular courses:
                 </p>
             </div>
-            <div class="cards row  g-3">
+            <div class="cards row  g-3 mb-4">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="row">
                             <div class="col-md-4 col-12 ">
-                                <img class="w-100 mt-lg-1" src="./images/course/course-1.png" alt="">
+                                <img class="course-img w-100 mt-lg-1" src="./images/course/course-1.png" alt="">
                             </div>
                             <div class="col-md-8 col-12 p-4">
                                 <h5>
@@ -229,7 +233,7 @@
                                 </h5>
                                 <p>
                                     Expand your horizons as you learn more about motion graphics.Try motion techniques,
-                                    topics, and tools including software like After Effects, Looom and Cinema 4D.
+                                    topics,tools including software like After Effects, Looom and Cinema 4D.
                                 </p>
                                 <p class="fw-semibold text-info">Price: $20</p>
                             </div>
@@ -237,9 +241,121 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center">
+                <button class="btn btn-info">
+                    View All
+                </button>
+            </div>
+
         </section>
 
         <!--============ Popular courses end ============== -->
+
+        <!--============== ready section start ============== -->
+
+        <section class="container my-5 rounded p-5 bg-info d-flex justify-content-center align-items-center ">
+            <div class="w-50">
+                <h3>Ready to join?</h3>
+                <p>Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and
+                    degrees from world-class universities and companies.</p>
+            </div>
+            <div class="w-50 d-flex justify-content-end">
+                <button class="btn btn-light">Register Now</button>
+            </div>
+        </section>
+
+        <!--============= ready section end ================ -->
+
+        <!--============== faq section start ============ -->
+
+        <section class="container my-5">
+            <div class="text-center">
+                <h3>Frequently Asked Questins</h3>
+                <p>Everything you need to know</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="accordion w-50" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the differences between flexbox and grid?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between bootstrap and tailwind?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is CSS box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In CSS, the term "box model" is used when talking about design and layout.The CSS box
+                                model is essentially a box that wraps around every HTML element. It consists of:
+                                margins, borders, padding, and the actual content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is a semantic tag?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headinFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The HTML semantics refers to the tags that provide meaning to an HTML page rather than
+                                just presentation. It makes HTML more comprehensible by better defining the different
+                                sections and layout of web pages. For example: header, main, article, footer.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============== faq section end ============ -->
+
+        <!-- ===========trasted company section start========  -->
+        
+        <section class="container text-center my-5 d-none d-lg-block">
+            <h3>Trusted by over 800+ companies</h3>
+            <div class="d-flex justify-content-center gap-5 mt-4">
+                <img src="./images/company/company-1.png" alt="">
+                <img src="./images/company/company-2.png" alt="">
+                <img src="./images/company/company-3.png" alt="">
+                <img src="./images/company/company-4.png" alt="">
+                <img src="./images/company/company-5.png" alt="">
+                <img src="./images/company/company-6.png" alt="">
+            </div>
+        </section>
+        
+        <!--=========== trasted company section start ======== -->
 
     </main>
 
