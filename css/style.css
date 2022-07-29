@@ -1,4 +1,6 @@
-@media only screen and (max-width: 767px) {
+/*===================== Mobile devices =================== */
+
+@media only screen and (max-width: 768px) {
     .carousel-item img {
         width: 335px;
         height: 262px;
